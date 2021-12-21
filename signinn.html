@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signin</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="put imp">
+        <meta name="author" content="put name of the name">
+        <meta name="description" content="one line description">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       
+        <script>
+            function myFunction() {
+              alert("reset done successfully");
+            }
+            </script>
+        <link rel="stylesheet" href="signinn.css">
+        <style>
+            .error{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-container">
+                <div>
+                    <img src="https://image.freepik.com/free-vector/cute-illustration-with-spiritual-symbols_1196-524.jpg" class="image1"/>
+                </div>
+                <div class="home-container">
+                    <a class="a1" href="index.html" target="_blank">Home</a>
+                    <a class="a1" href="signinn.html"  target="_blank">Sign in</a>
+                    <a class="a1" href="aboutus.html"  target="_blank">About us</a>
+                    <a class="a1" href="faqs.html"  target="_blank">FAQ's</a>
+                </div>
+            </nav>
+        </header>
+        <div class="siginn-background">
+            <h3 id="signinn-heading">WELCOME TO KRISHNA HOTELS</h3>
+            <form action="Success.html"  onsubmit="return validateForm()"   novalidate> 
+                <table class="form-background">
+                   <tr><td> <label for="fname">First Name:</label></td>
+                        <td><input type="text" id="fname" value="sai" name="myname" onblur="validate1()"></td></tr>
+                    <tr><td></td><td id="error1" class="error"></td></tr>
+                    <tr><td><label for="lname">Last Name:</label></td>
+                        <td><input type="text" id="lname"  name="myname" onblur="validate2()"></td></tr>
+                    <tr><td></td><td id="error2" class="error"></td></tr>
+                    <tr><td><label for="uname">Set Username:</label></td>
+                        <td><input type="text" id="uname"  name="uname" onblur="validate3()"></td></tr>
+                    <tr><td></td><td id="error3" class="error"></td></tr>
+                    <tr><td><label for="pass">Set Password:</label></td>
+                        <td><input type="password" id="pass"  name="password" onblur="validate7()"></td></tr>
+                    <tr><td></td><td id="error7" class="error"></td></tr>
+                    <tr><td></td>
+                 
+                    <tr><td><label for="email">Email Id:</label></td>
+                        <td><input type="email" id="email"  name="email" onblur="validate4()"></td></tr>
+                    <tr><td></td><td id="error4" class="error"></td></tr>    
+                    <tr><td><label for="mobile">Mobile number:</label></td>  
+                        <td><input type="text" id="mobile"  name="mobile" onblur="validate5()"></td></tr> 
+                    <tr><td></td><td id="error5" class="error"></td></tr>
+                    <tr><td><label for="age">Age:</label></td>
+                            <td><input type="number" id="age" name="age" onblur="validate6()"></td></tr>  
+                    <tr><td></td><td id="error6" class="error"></td></tr>         
+                    <tr><td></td><td><input type="submit" value="Send OTP"><input type="reset" onclick="myFunction()"></td></tr> 
+                </table>
+                </form>
+        
+            
+           </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer1">
+                    <img src="https://image.freepik.com/free-vector/beautiful-flute-with-peacock-feather_96037-394.jpg" alt="footer image" class="image2"/>
+                    <h3>Reach us</h3>
+                    <p><i class="fas fa-phone-square-alt phone1"></i>+91 9876543210</p>
+                    <p>(WhatsApp only)</p>
+                    <p>support@hotel.tech</p>
+                </div>
+                <div class="footer1">
+                    <h2>Quick Links</h2>
+                    <p>
+                        <a href="index.html" class="links">Home</a><br>
+
+                        <a href="signinn.html" class="links">Sign in</a><br>
+
+                        <a href="aboutus.html" class="links">about Us</a><br>
+
+                        <a href="faqs.html" class="links">Faq's</a>
+                    </p>
+                </div>
+                <div class="footer1">
+                    <h2>Payment methods</h2>
+                    <div>
+                        <i class="fab fa-cc-visa" style="font-size: 50px;"></i>
+                        <i class="fab fa-cc-mastercard" style="font-size: 50px;"></i>
+                        <i class="fab fa-cc-paypal" style="font-size: 50px;"></i>
+                        </div>
+                    <h2>Address</h2>
+                    <p> krishna hotels,<br>
+                        white field,<br>
+                        beside reliance digital,<br>
+                        bangalore,560067.
+                    </p>
+                </div>
+                </div>
+            </footer>
+            <script src="project.js"></script>
+    </body>
+    </html>

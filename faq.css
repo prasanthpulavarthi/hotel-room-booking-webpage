@@ -1,0 +1,86 @@
+header{
+    top:0px;
+    position: sticky;
+}
+body{
+    margin: 0px;
+}
+.nav-container{
+    background-color: darkblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.a1{
+    margin: 10px;
+    color:white;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+.aboutus-top{
+    background-image: url("https://image.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15874.jpghttps://image.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15874.jpg");
+    background-size: cover;
+    height: 400px;
+}
+#aboutus-secondpart{
+    padding:30px;
+}
+
+.top{
+    text-align: center;
+    padding:200px;
+    color: white;
+}
+div>p{
+    
+    display:inline-block;
+    padding:10px;
+}
+.arrow{
+    height:30px;
+    width:30px;
+}
+.sp:hover{
+    color:green;
+}
+.home1:hover{
+    background-color: yellowgreen;
+}
+.faq-question{
+    border:1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+section.faq-question:hover{
+    border:3px solid green;
+}
+.footer-container{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.image2{
+    height: 100px;
+    width: 300px;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+.i-image{
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
+}
+.phone1{
+    padding:5px;
+}
+.links{
+    color:white;
+}

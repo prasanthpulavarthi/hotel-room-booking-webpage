@@ -1,0 +1,102 @@
+header{
+    top:0px;
+    position: sticky;
+}
+body{
+    margin: 0px;
+}
+.nav-container{
+    background-color: darkblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-container,.a1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+.a1{
+    margin: 10px;
+    color:white;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+.bodyimage{
+    background-image:linear-gradient(blue,white);
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.offerheading{
+    text-decoration: underline;
+    text-align: center;
+}
+.images{
+    width:200px;
+    height:300px;
+    transition: width 2s;
+}
+.images:hover{
+    width:250px;
+}
+
+.bodyimage1{
+    background-image: linear-gradient(to top ,blue,white);
+}
+.sub-cards-container{
+    display: flex;
+    justify-content: center;
+}
+.sub-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin: 20px;
+    width: 300px;
+    background-color: rgb(175, 204, 209);
+    box-shadow: 10px 10px 10px black;
+}
+.sub-cards{
+    width: 350px;
+    height: 300px;
+    
+}
+.card-images{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    align-self: center;
+}
+.footer-container{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.image2{
+    height: 100px;
+    width: 300px;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+.i-image{
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
+}
+.phone1{
+    padding:5px;
+}
+.links{
+    color:white;
+}

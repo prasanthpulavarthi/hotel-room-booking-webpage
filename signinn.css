@@ -1,0 +1,100 @@
+header{
+    top:0px;
+    position: sticky;
+}
+body{
+    margin: 0px;
+}
+.nav-container{
+    background-color: darkblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.a1{
+    margin: 10px;
+    color:white;
+}
+.image1{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 30px;
+}
+.siginn-background{
+    background-color: skyblue;
+    text-align: center;
+    padding:20px;
+   
+}
+#signinn-heading{
+    color:darkblue;
+}
+table{
+    background: white ;
+    border-radius: 10px;
+    padding: 20px;
+    border: black 2px solid;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-background{
+    background-color: yellow;
+}
+
+[type='submit']{
+    background: green;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 10px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+[type="reset"]{
+    background: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 10px;
+}
+.footer-container{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.image2{
+    height: 100px;
+    width: 300px;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+.i-image{
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
+}
+.phone1{
+    padding:5px;
+}
+.links{
+    color:white;
+}
